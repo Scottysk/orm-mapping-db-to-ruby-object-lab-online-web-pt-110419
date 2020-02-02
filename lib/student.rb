@@ -26,7 +26,7 @@ class Student
     LIMIT 1
     SQL
     
-    
+    DB[:conn].execute(sql)
     # find the student in the database given a name
     # return a new instance of the Student class
   end
