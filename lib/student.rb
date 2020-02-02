@@ -61,4 +61,6 @@ end
   end
 end
   
-  def self.
+  def self.all_students_in_grade_9
+    
+  end
