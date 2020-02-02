@@ -92,6 +92,7 @@ end
     LIMIT ?
     SQL
     DB[:conn].map do |row|
+      self.
     
     
   end
