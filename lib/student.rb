@@ -100,7 +100,7 @@ end
     sql = <<-SQL
     SELECT *
     FROM students
-    WHERE students
+    WHERE students.grade = 10
   end
 
 
