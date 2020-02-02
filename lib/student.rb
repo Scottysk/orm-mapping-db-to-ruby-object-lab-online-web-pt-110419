@@ -91,7 +91,7 @@ end
     WHERE students.grade = 10
     LIMIT ?
     SQL
-    DB[:conn].e
+    DB[:conn].execute
     
     
   end
