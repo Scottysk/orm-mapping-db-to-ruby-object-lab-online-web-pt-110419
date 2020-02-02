@@ -101,6 +101,10 @@ end
     SELECT *
     FROM students
     WHERE students.grade = 10
+    LIMIT 1 
+    SQL
+    
+    DB[:conn.execute]
   end
 
 
