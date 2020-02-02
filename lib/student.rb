@@ -13,7 +13,7 @@ class Student
   def self.all
     sql = <<-SQL
     SELECT *
-    FROM students
+    FROM student
     SQL
     
     db[:conn].execute(sql)
