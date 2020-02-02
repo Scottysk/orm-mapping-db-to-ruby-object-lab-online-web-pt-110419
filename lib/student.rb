@@ -91,7 +91,7 @@ end
     WHERE students.grade = 10
     LIMIT ?
     SQL
-    DB[:conn].execute(sql, x)
+    DB[:conn].map do |row|
     
     
   end
