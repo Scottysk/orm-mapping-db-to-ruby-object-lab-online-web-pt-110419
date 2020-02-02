@@ -65,5 +65,5 @@ end
     sql = <<- SQL
     SELECT *
     FROM students
-    WHERE.students = 
+    WHERE.students.grade = 9
   end
