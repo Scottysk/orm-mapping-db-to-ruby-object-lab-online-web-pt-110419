@@ -65,4 +65,5 @@ end
     sql = <<- SQL
     SELECT *
     FROM students
+    WHERE.students = 
   end
