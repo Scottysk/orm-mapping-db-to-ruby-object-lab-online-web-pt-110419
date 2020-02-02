@@ -16,7 +16,7 @@ class Student
     FROM students
     SQL
     
-    DB[:conn].execute(sql).collect
+    DB[:conn].execute(sql).collect do |row|
   end
 
   def self.find_by_name(name)
