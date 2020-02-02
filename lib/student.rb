@@ -114,7 +114,7 @@ end
     SELECT *
     FROM students
     WHERE students.grade = ?
-    LIMIT 1
+    LIMIT ?
     SQL
     
     DB[:conn].execute(sql, x).collect do |row|
