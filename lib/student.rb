@@ -66,4 +66,5 @@ end
     SELECT *
     FROM students
     WHERE.students.grade = 9
+    SQL
   end
