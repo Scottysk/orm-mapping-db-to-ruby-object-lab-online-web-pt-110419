@@ -94,7 +94,6 @@ end
     DB[:conn](sql, x).map do |row|
       self.new_from_db(row)
     end
-    end
   end
 
 
