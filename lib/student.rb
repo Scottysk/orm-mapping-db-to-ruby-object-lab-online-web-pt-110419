@@ -89,7 +89,7 @@ end
     SELECT *
     FROM students
     WHERE students.grade = 10
-    LIMIT 1
+    LIMIT ?
   end
 
 
