@@ -92,7 +92,7 @@ end
     LIMIT ?
     SQL
     DB[:conn].map do |row|
-      self.
+      self.new_from_db(row)
     
     
   end
